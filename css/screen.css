@@ -1,0 +1,19 @@
+@import 'fonts.css';
+@import 'both.css';
+@import '../src/list-screen.css';
+
+/* --------------------------------------------------------------- */
+
+#content{
+    width: min(100% - 2rem, 1200px);
+    margin-inline: auto;
+}
+
+figure, img{
+    max-width: 100%;
+}
+
+
+
+
+

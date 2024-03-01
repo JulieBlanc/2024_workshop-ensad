@@ -1,0 +1,32 @@
+@import 'fonts.css';
+@import 'both.css';
+
+/* --------------------------------------------------------------- */
+
+@media print {
+
+    /* Size and marin for all pages ------------- */
+    @page {
+        size: 148mm 210mm;
+        margin-top: 20mm;
+        margin-bottom: 20mm;
+    }  
+
+    section {
+        break-before: page; 
+    }
+
+
+
+
+    figure, img{
+        width: 100%;
+    }
+
+
+}
+
+
+
+
+@import '../src/list-print.css';
